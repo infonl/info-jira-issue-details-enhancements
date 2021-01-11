@@ -5,8 +5,8 @@ Creates nice copypasteable text in JIRA issue package
 
 This text can be used for instance in copyTextSlack
 - Format: ISSUESID - Issuetitle
-- Format: ISSUESID - Issuetitle (StoryPoints)
-The IssueID is linked to the story
+- Format: ISSUESID - Issuetitle (StoryPoints)  
+The IssueID is linked to the story  
 - Example DBI-2334 - Create new form (8)
 
 ## INSTALL
