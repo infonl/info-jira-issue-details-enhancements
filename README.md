@@ -14,9 +14,9 @@ Example DBI-2334 - Create new form (8)
 3. Click 'User JavaScript and CSS' icon in Chrome (Blue/red dotted lines-icon)
 4. Click 'Add new'
 5. fill in:
-Name: JIRA issue details
-URL: replace url by '*/browse/*'
-Options: enable JavaScript and JQuery 3
-Copypaste this whole script in the JS-pane. Keep CSS pane empty
+ - Name: JIRA issue details
+ - URL: replace url by '*/browse/*'
+ - Options: enable JavaScript and JQuery 3
+ - Copypaste this whole script in the JS-pane. Keep CSS pane empty
 6. Save
 7. Go to JIRA issue and refresh. The copypasteable link should appear now directly under the issue action buttons [Edit | Comment etc].
