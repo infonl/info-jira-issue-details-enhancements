@@ -2,11 +2,12 @@
 Enhance your JIRA issue details page
 
 Creates nice copypasteable text in JIRA issue package
+
 This text can be used for instance in copyTextSlack
-Format: ISSUESID - Issuetitle
-Format: ISSUESID - Issuetitle (StoryPoints)
+- Format: ISSUESID - Issuetitle
+- Format: ISSUESID - Issuetitle (StoryPoints)
 The IssueID is linked to the story
-Example DBI-2334 - Create new form (8)
+- Example DBI-2334 - Create new form (8)
 
 ## INSTALL
 1. Install 'User JavaScript and CSS' extension for Chrome https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld?hl=en
