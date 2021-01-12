@@ -9,6 +9,10 @@ This text can be used for instance in copyTextSlack
 The IssueID is linked to the story  
 - Example DBI-2334 - Create new form (8)
 
+
+![Screenshot](https://raw.githubusercontent.com/infonl/jira-issue-details-enhancements/main/Screenshot%20Issue%20details.png?token=AGHGX76TF42B3WUL2IY6SLC77VRRE "Screenshot")
+
+
 ## INSTALL
 1. Install 'User JavaScript and CSS' extension for Chrome https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld?hl=en
 2. Open a random JIRA issue in your browser. The url probably contains "/jira/browse/" now.
