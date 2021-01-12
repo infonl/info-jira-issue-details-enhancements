@@ -1,7 +1,7 @@
 # jira-issue-details-enhancements
 Enhance your JIRA issue details page
 
-Creates nice copypasteable text in JIRA issue package
+Creates nice copypasteable text in JIRA issue page
 
 This text can be used for instance in copyTextSlack
 - Format: ISSUESID - Issuetitle
