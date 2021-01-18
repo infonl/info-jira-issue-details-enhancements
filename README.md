@@ -1,12 +1,12 @@
 # jira-issue-details-enhancements
 Enhance your JIRA issue details page
 
-Creates nice copypasteable text in JIRA issue page
+Creates nice copypasteable text in JIRA issue page, including copy-to-clipboard-button
 
 This text can be used for instance in copyTextSlack
-- Format: ISSUESID - Issuetitle
-- Format: ISSUESID - Issuetitle (StoryPoints)  
-The IssueID is linked to the story  
+- Format: ISSUEID - Issuetitle
+- Format: ISSUEID - Issuetitle (StoryPoints)  
+The ISSUEID is linked to the story  
 - Example DBI-2334 - Create new form (8)
 
 
