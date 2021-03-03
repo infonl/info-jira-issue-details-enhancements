@@ -20,7 +20,7 @@ The ISSUEID is linked to the story
 4. Click 'Add new'
 5. fill in:
  - Name: JIRA issue details
- - URL: replace url by '*/browse/*'
+ - URL: replace url by `*/browse/*`
  - Options: enable JavaScript and JQuery 3
  - Copypaste this whole script in the JS-pane. Keep CSS pane empty
 6. Save
