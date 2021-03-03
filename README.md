@@ -22,6 +22,6 @@ The ISSUEID is linked to the story
  - Name: JIRA issue details
  - URL: replace url by `*/browse/*`
  - Options: enable JavaScript and JQuery 3
- - Copypaste this whole script in the JS-pane. Keep CSS pane empty
+ - Open https://raw.githubusercontent.com/infonl/jira-issue-details-enhancements/main/js%2Cjs in a browser tab and copypaste this whole script in the JS-pane. Keep CSS pane empty
 6. Save
 7. Go to JIRA issue and refresh. The copypasteable link should appear now directly under the issue action buttons [Edit | Comment etc].
