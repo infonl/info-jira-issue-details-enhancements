@@ -28,6 +28,8 @@ function appendIssueLink() {
 	}
 	var copyBtn = "<a id=\"copyText\">copy</a>";
 	
+	// .issue-body-content for JIRA server
+	// #jira-issue-header  for JIRA cloud
 	$('#jira-issue-header, .issue-body-content').prepend('<span id="copyTextSlack">' + copyTextSlack + "</span> " + copyBtn);
 
 	// Copy text to clipboard
