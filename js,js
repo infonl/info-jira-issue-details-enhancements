@@ -14,10 +14,11 @@ var fieldIdStoryPoints = 10609; // not sure if this is the same for every JIRA
 
 function appendIssueLink() {
 	
-	var storyTitle = $( "#summary-val" ).text();
+	var storyTitle = $("h1").text();
 	var storyLink = window.location;
+	var urlSplit = document.location.href.split('/')
+	var storyId = urlSplit.pop();
 	var storyPoints = $("#customfield_"+fieldIdStoryPoints+"-val").text().trim();
-	var storyId = $("#key-val").text().trim();
 	var copyTextSlack = "";
 
 	copyTextSlack += '<a href="' + storyLink + '">';
@@ -27,7 +28,7 @@ function appendIssueLink() {
 	}
 	var copyBtn = "<a id=\"copyText\">copy</a>";
 	
-	$('.issue-body-content').prepend('<span id="copyTextSlack">' + copyTextSlack + "</span> " + copyBtn);
+	$('#jira-issue-header, .issue-body-content').prepend('<span id="copyTextSlack">' + copyTextSlack + "</span> " + copyBtn);
 
 	// Copy text to clipboard
 	$('#copyText').click(function() {
