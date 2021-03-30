@@ -14,7 +14,9 @@ var fieldIdStoryPoints = 10609; // not sure if this is the same for every JIRA
 
 function appendIssueLink() {
 	
-	var storyTitle = $("h1").text();
+	// JIRA server -> #summary-val
+	// JIRA cloud  -> h1[data-test-id="issue.views.issue-base.foundation.summary.heading"]
+	var storyTitle = $('#summary-val, h1[data-test-id="issue.views.issue-base.foundation.summary.heading"]').text();
 	var storyLink = window.location;
 	var urlSplit = document.location.href.split('/')
 	var storyId = urlSplit.pop();
